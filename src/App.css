@@ -1,9 +1,69 @@
 .App {
-  text-align: center;
+ background: #AAFFA9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #11FFBD, #AAFFA9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #11FFBD, #AAFFA9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+.grande1{
+
+  transition: 2000ms;
+  margin: 10px;
+  width: 156px;
+  height:156px;
+  
+  }
+
+.bordesSecciones{
+
+
+
+}
+
+.grande{
+
+transition: 2000ms;
+margin: 10px;
+width: 199px;
+height:199px;
+
+
+
+
+
+}
+
+.pequeño{
+
+
+  transition: 2000ms;
+
+  width: 0px;
+  height:0px;
+
+
+
 }
 
 .App-logo {
   height: 40vmin;
+
+}
+
+
+.fondoimagen{
+
+background-image: url("https://mejorconsalud.com/wp-content/uploads/2018/07/jardin-plantas-piedras.jpg");
+
+
+}
+.letratitulo{
+
+color: #282633;
+
+ font-family: 'Pacifico';
 }
 
 .App-header {
@@ -19,4 +79,125 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+
+.alinea{
+
+display: flex;
+
+justify-content: center;
+
+
+}
+
+.cambios{
+
+transition: 1000ms;
+
+width: 300px;
+height: 300px;
+
+
+
+}
+
+
+.fondo{
+
+background: #AAFFA9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #11FFBD, #AAFFA9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #11FFBD, #AAFFA9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+.colorItemsMenuResponsive{
+  /* Chrome 10-25, Safari 5.1-6 */
+color: #3affb8;
+
+
+    font-family: 'Pacifico', cursive;
+font-size: 30px;
+
+}
+
+.letra{
+color: #3affb8;
+
+
+ font-family: 'Pacifico';
+
+ 
+}
+
+.fondoGris{
+
+  background-color: #444b49;
+}
+.fondoBarra{
+  background-color: #444b49;
+margin-left: -53px;
+
+justify-content: center;
+}
+
+.segundaletra{
+
+
+  font-family: 'Pacifico';
+
+
+}
+
+.fondocarta{
+
+  background-color: #444b49;
+
+}
+
+
+.fondoimagen{
+
+background-image: url("https://blogs.hogarmania.com/wp-content/uploads/2017/03/hanami-flor-cerezo-japones.jpg") no-repeat fixed center;
+
+}
+
+
+.tamaño{
+
+transition: 700ms;
+width: 1200px;
+height: 400px;
+border: solid 5px;
+border-color: #f73552;
+
+}
+
+.tamañodefaultimagen{
+  transition: 700ms;
+  width: 600px;
+  height: 400px;
+
+
+
+}
+
+
+
+.animacioncolortitulo{
+
+  transition: 700ms;
+  color: #ff8597;
+  font-family: 'Pacifico';
+
+
+}
+
+
+.estadonormal{
+
+transition: 700ms;
+
 }
