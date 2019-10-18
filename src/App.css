@@ -6,7 +6,12 @@ background: linear-gradient(to right, #11FFBD, #AAFFA9); /* W3C, IE 10+/ Edge, F
 }
 
 
+.tamañoimagen{
 
+height: 300px;
+
+
+}
 .grande1{
 
   transition: 2000ms;
@@ -79,6 +84,14 @@ color: #282633;
 
 .App-link {
   color: #09d3ac;
+}
+
+
+.cajaformulario{
+
+align-items: center;
+
+
 }
 
 

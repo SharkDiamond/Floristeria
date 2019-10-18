@@ -1,6 +1,6 @@
 import React from 'react';
 import { fallDown as Menu } from 'react-burger-menu';
-
+import { Link } from "react-router-dom";
 class Barra extends React.Component {
  
 ctyles = {
@@ -62,11 +62,11 @@ ctyles = {
 
 
       <Menu  styles={this.ctyles} customBurgerIcon={ <img src="https://image.flaticon.com/icons/svg/1152/1152011.svg" alt="" /> } >
-        <a id="home" className="menu-item font-weight-bold text-center colorItemsMenuResponsive" href="/">Inicio</a>
+        <Link id="home" className="menu-item font-weight-bold text-center colorItemsMenuResponsive" to="./">Inicio</Link>
         <br/>
-        <a id="about" className="menu-item font-weight-bold text-center colorItemsMenuResponsive" href="/about">Contacto</a>
+        <Link id="about" to="/Contacto" className="menu-item font-weight-bold text-center colorItemsMenuResponsive" >Contacto</Link>
         <br/>
-        <a id="contact" className="menu-item font-weight-bold text-center colorItemsMenuResponsive" href="/contact">Trabajos</a>
+        <Link id="contact" to="/Trabajos" className="menu-item font-weight-bold text-center colorItemsMenuResponsive">Trabajos</Link>
         <br/>
       </Menu>
 
